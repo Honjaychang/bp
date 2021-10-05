@@ -4,4 +4,4 @@
 
 格式：https://cdn.jsdelivr.net/gh/user/repo@version/file
 
-`https://cdn.jsdelivr.net/gh/honjaychang/picture/photo.ico`
+`https://cdn.jsdelivr.net/gh/honjaychang/bp/photo.ico`
