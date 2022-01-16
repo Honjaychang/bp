@@ -6,15 +6,6 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {
-      name: 🇨🇳 中国_TG@nodesharing_131,
-      server: 120.232.214.36,
-      port: 5002,
-      type: ss,
-      cipher: aes-256-gcm,
-      password: 1f6aca3cebd21a4cd5a80718ed16b74c,
-      udp: true,
-    }
-  - {
       name: 🇸🇬 新加坡2_26,
       server: sg-am21.eqsunshine.com,
       port: 8080,
@@ -25,16 +16,6 @@ proxies:
       obfs: tls1.2_ticket_auth,
       protocol-param: '',
       obfs-param: releases.ubuntu.com,
-      udp: true,
-    }
-  - {
-      name: 🇭🇰 香港阿伟科技-油管 11,
-      server: sh-hk-hgc-100m-tr.cdn.savoy.click,
-      port: 20189,
-      type: trojan,
-      password: SfobRIcergHchqBFzzua,
-      sni: sh-hk-hgc-100m-tr.cdn.savoy.click,
-      skip-cert-verify: false,
       udp: true,
     }
 proxy-groups:
