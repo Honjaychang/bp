@@ -6,69 +6,6 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {
-      name: 🇯🇵 日本阿伟科技-油管 4,
-      server: jp-tyo-04-tr.cdn.savoy.click,
-      port: 889,
-      type: trojan,
-      password: SfobRIcergHchqBFzzua,
-      sni: jp-tyo-04-tr.cdn.savoy.click,
-      skip-cert-verify: false,
-    }
-  - {
-      name: 🇭🇰 香港阿伟科技-油管 2,
-      server: 112.33.32.136,
-      port: 10001,
-      type: vmess,
-      uuid: 65cac56d-4155-43c8-bae0-f368cb21f771,
-      alterId: 1,
-      cipher: auto,
-      tls: false,
-      skip-cert-verify: false,
-    }
-  - {
-      name: 🇭🇰 香港阿伟科技-油管 4,
-      server: hk-hkg-shhk-001-tr.cdn.savoy.click,
-      port: 20089,
-      type: trojan,
-      password: SfobRIcergHchqBFzzua,
-      sni: hk-hkg-shhk-001-tr.cdn.savoy.click,
-      skip-cert-verify: false,
-    }
-  - {
-      name: 🇭🇰 香港阿伟科技-油管 7,
-      server: 118.107.244.112,
-      port: 7307,
-      type: ss,
-      cipher: aes-256-gcm,
-      password: FoOiGlkAA9yPEGP,
-    }
-  - {
-      name: 🇭🇰 香港阿伟科技-油管 9,
-      server: 118.107.244.110,
-      port: 5004,
-      type: ss,
-      cipher: aes-256-gcm,
-      password: g5MeD6Ft3CWlJId,
-    }
-  - {
-      name: 🇭🇰 香港阿伟科技-油管 10,
-      server: jp-tyo-04-tr.cdn.savoy.click,
-      port: 889,
-      type: trojan,
-      password: SfobRIcergHchqBFzzua,
-      sni: jp-tyo-04-tr.cdn.savoy.click,
-      skip-cert-verify: false,
-    }
-  - {
-      name: 🇭🇰 香港阿伟科技-油管 11,
-      server: sh-hk-hgc-100m-tr.cdn.savoy.click,
-      port: 20189,
-      type: trojan,
-      password: SfobRIcergHchqBFzzua,
-      sni: sh-hk-hgc-100m-tr.cdn.savoy.click,
-      skip-cert-verify: false,
-    }
-  - {
       name: 🇭🇰 香港HKBN,
       server: cm.stunnel.vip,
       port: 4700,
@@ -76,33 +13,6 @@ proxies:
       username: 1002026295@qq.com,
       password: 7fd23048-53e0-11eb-8684-f23c913c8d2b,
       tls: true,
-    }
-  - {
-      name: 🇭🇰 香港HKT,
-      server: pccw.stunnel.vip,
-      port: 4700,
-      type: http,
-      username: 1002026295@qq.com,
-      password: 7fd23048-53e0-11eb-8684-f23c913c8d2b,
-      tls: true,
-    }
-  - {
-      name: 🇨🇳 台北,
-      server: tw.gotochinatown.net,
-      port: 10881,
-      type: http,
-      username: 1002026295@qq.com,
-      password: 7fd23048-53e0-11eb-8684-f23c913c8d2b,
-      tls: true,
-    }
-
-  - {
-      name: 'Youtube:鹏哥分享_51',
-      server: 118.107.244.112,
-      port: 8091,
-      type: ss,
-      cipher: aes-256-gcm,
-      password: PCnnH6SQSnfoS27,
     }
   - {
       name: '中国_TG@nodesharing_5',
@@ -146,35 +56,12 @@ proxies:
       network: tcp,
     }
   - {
-      name: 🇰🇷 韩国阿伟科技-油管,
-      server: 1031kr.fans8.xyz,
-      port: 80,
-      type: vmess,
-      uuid: c1de45d9-87eb-3af5-84fc-db92dc104e16,
-      alterId: 2,
-      cipher: auto,
-      tls: false,
-      skip-cert-verify: false,
-      network: ws,
-      ws-path: /v2ray,
-      ws-headers: { Host: 1031kr.fans8.xyz },
-    }
-  - {
       'name': '🇺🇸US_1141',
       'server': '167.88.61.60',
       'type': 'ss',
       'country': '🇺🇸US',
       'port': 7002,
       'password': 'RexnBgU7EV5ADxG',
-      'cipher': 'aes-256-gcm',
-    }
-  - {
-      'name': '🇺🇸US_779',
-      'server': '23.19.26.246',
-      'type': 'ss',
-      'country': '🇺🇸US',
-      'port': 10515,
-      'password': 'dongtaiwang.com',
       'cipher': 'aes-256-gcm',
     }
   - {
@@ -202,23 +89,11 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵 日本阿伟科技-油管 4
-      - 🇭🇰 香港阿伟科技-油管 2
-      - 🇭🇰 香港阿伟科技-油管 4
-      - 🇭🇰 香港阿伟科技-油管 7
-      - 🇭🇰 香港阿伟科技-油管 9
-      - 🇭🇰 香港阿伟科技-油管 10
-      - 🇭🇰 香港阿伟科技-油管 11
       - 🇭🇰 香港HKBN
-      - 🇭🇰 香港HKT
-      - 🇨🇳 台北
-      - Youtube:鹏哥分享_51
       - 中国_TG@nodesharing_5
       - 中国_TG@nodesharing_176
       - 中国_TG@nodesharing_400
       - 中国_TG@nodesharing_450
-      - 🇰🇷 韩国阿伟科技-油管
-      - 🇺🇸US_779
       - 🇺🇸US_787
       - 🇺🇸US_1141
       - 🇺🇸US_1230
@@ -227,23 +102,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本阿伟科技-油管 4
-      - 🇭🇰 香港阿伟科技-油管 2
-      - 🇭🇰 香港阿伟科技-油管 4
-      - 🇭🇰 香港阿伟科技-油管 7
-      - 🇭🇰 香港阿伟科技-油管 9
-      - 🇭🇰 香港阿伟科技-油管 10
-      - 🇭🇰 香港阿伟科技-油管 11
       - 🇭🇰 香港HKBN
-      - 🇭🇰 香港HKT
-      - 🇨🇳 台北
-      - Youtube:鹏哥分享_51
       - 中国_TG@nodesharing_5
       - 中国_TG@nodesharing_176
       - 中国_TG@nodesharing_400
       - 中国_TG@nodesharing_450
-      - 🇰🇷 韩国阿伟科技-油管
-      - 🇺🇸US_779
       - 🇺🇸US_787
       - 🇺🇸US_1141
       - 🇺🇸US_1230
