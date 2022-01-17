@@ -119,16 +119,6 @@ proxies:
       'skip-cert-verify': true,
     }
   - {
-      'name': '🇭🇰 HK_629',
-      'server': 'www.zx07.top',
-      'type': 'trojan',
-      'country': '🇭🇰 HK',
-      'port': 443,
-      'password': 'L1qNeGrY58ApwrRA',
-      'skip-cert-verify': true,
-      'udp': true,
-    }
-  - {
       'name': '🇭🇰 HK_621',
       'server': '96.wgong.xyz',
       'type': 'vmess',
@@ -389,15 +379,6 @@ proxies:
       'cipher': 'aes-256-gcm',
     }
   - {
-      'name': '🇭🇰 HK_130 TG@peekfun',
-      'server': '118.107.244.112',
-      'port': 8091,
-      'type': 'ss',
-      'country': '🇭🇰 HK',
-      'password': 'PCnnH6SQSnfoS27',
-      'cipher': 'aes-256-gcm',
-    }
-  - {
       'name': '🇭🇰 HK_134 TG@peekfun',
       'server': '118.107.244.112',
       'port': 8008,
@@ -415,16 +396,6 @@ proxies:
       'password': 'zDNVedRFPQexG9v',
       'cipher': 'aes-256-gcm',
     }
-  - {
-      'name': '🇭🇰 HK_136 TG@peekfun',
-      'server': 'www.zx07.top',
-      'port': 443,
-      'type': 'trojan',
-      'country': '🇭🇰 HK',
-      'password': 'L1qNeGrY58ApwrRA',
-      'skip-cert-verify': true,
-      'udp': true,
-    }
 
 proxy-groups:
   - name: 🚀 节点选择
@@ -439,7 +410,6 @@ proxy-groups:
       - 🇭🇰 HK_626
       - 🇭🇰 HK_627
       - 🇭🇰 HK_628
-      - 🇭🇰 HK_629
       - 🇭🇰 HK_621
       - 🇭🇰 HK_622
       - 🇭🇰 HK_623
@@ -458,10 +428,8 @@ proxy-groups:
       - 🇭🇰 HK_586
       - 🇭🇰 HK_127 TG@peekfun
       - 🇭🇰 HK_128 TG@peekfun
-      - 🇭🇰 HK_130 TG@peekfun
       - 🇭🇰 HK_134 TG@peekfun
       - 🇭🇰 HK_135 TG@peekfun
-      - 🇭🇰 HK_136 TG@peekfun
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -474,7 +442,6 @@ proxy-groups:
       - 🇭🇰 HK_626
       - 🇭🇰 HK_627
       - 🇭🇰 HK_628
-      - 🇭🇰 HK_629
       - 🇭🇰 HK_621
       - 🇭🇰 HK_622
       - 🇭🇰 HK_623
@@ -493,10 +460,8 @@ proxy-groups:
       - 🇭🇰 HK_586
       - 🇭🇰 HK_127 TG@peekfun
       - 🇭🇰 HK_128 TG@peekfun
-      - 🇭🇰 HK_130 TG@peekfun
       - 🇭🇰 HK_134 TG@peekfun
       - 🇭🇰 HK_135 TG@peekfun
-      - 🇭🇰 HK_136 TG@peekfun
   - name: 🌍 国外媒体
     type: select
     proxies:
