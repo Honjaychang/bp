@@ -5,37 +5,30 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {
-      name: 🇸🇬 新加坡2_26,
-      server: sg-am21.eqsunshine.com,
-      port: 8080,
-      type: ssr,
-      cipher: aes-256-cfb,
-      password: jUQAcjhEG,
-      protocol: origin,
-      obfs: tls1.2_ticket_auth,
-      protocol-param: '',
-      obfs-param: releases.ubuntu.com,
-      udp: true,
-    }
+  - {name: 🇸🇬 新加坡2_26, server: sg-am21.eqsunshine.com, port: 8080, type: ssr, cipher: aes-256-cfb, password: jUQAcjhEG, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: releases.ubuntu.com, udp: true}
+  - {name: 🇭🇰 HK_127 TG@peekfun, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇭🇰 HK_128 TG@peekfun, server: 118.107.244.112, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇭🇰 HK_134 TG@peekfun, server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 中国_TG@nodesharing_131
       - 🇸🇬 新加坡2_26
-      - 🇭🇰 香港阿伟科技-油管 11
+      - 🇭🇰 HK_127 TG@peekfun
+      - 🇭🇰 HK_128 TG@peekfun
+      - 🇭🇰 HK_134 TG@peekfun
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 中国_TG@nodesharing_131
       - 🇸🇬 新加坡2_26
-      - 🇭🇰 香港阿伟科技-油管 11
+      - 🇭🇰 HK_127 TG@peekfun
+      - 🇭🇰 HK_128 TG@peekfun
+      - 🇭🇰 HK_134 TG@peekfun
   - name: 🌍 国外媒体
     type: select
     proxies:
